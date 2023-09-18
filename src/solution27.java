@@ -6,15 +6,11 @@
 
 public class solution27 {
 
-
-
-
    public static void main(String[] args) {
 System.out.print("答案是");
 System.out.print(removeElement(new int[]{2,3,3,4,2,2},3));
 
     }
-
     private static int removeElement(int[] nums, int val) {
         int idx = 0;
         for (int x : nums) {
@@ -23,16 +19,9 @@ System.out.print(removeElement(new int[]{2,3,3,4,2,2},3));
             if (x != val) {
                 nums[idx++] = x;
             }
-
         }
 return idx;
-
-
     }
-
-
-
-
 }
 
 
